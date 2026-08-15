@@ -2,13 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: rgb(209, 229, 169);
 }
 html,
 body {
   height: 100%;
   width: 100%;
-  background-color: rgb(251, 251, 251);
+  background-color: rgb(209, 229, 169);
 }
 
 .container {
@@ -19,6 +18,7 @@ body {
   flex-direction: column;
   justify-self: center;
   padding: 10px 20px;
+  background-color: rgb(209, 229, 169);
 }
 
 .top {
@@ -41,6 +41,7 @@ body {
 .buttons .top_buttons {
   border: 0px;
   margin: 10px 15px;
+  background-color: inherit;
 }
 
 .buttons .top_buttons:hover {

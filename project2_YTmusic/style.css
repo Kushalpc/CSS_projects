@@ -94,3 +94,35 @@ body {
   border-right: 1px solid grey;
   padding-right: 32px;
 }
+
+.slider {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+#slide {
+  width: 280px;
+}
+.timestamp {
+  display: flex;
+  justify-content: space-between;
+  font-size: small;
+  margin: 5px 10px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 20px;
+  align-items: center;
+}
+
+.footer .footer_icons {
+  font-size: 20px;
+  color: rgba(8, 8, 8, 0.942);
+  /* border: 1px solid red; */
+}
+
+.footer .footer_icons:nth-child(3) {
+  font-size: 55px;
+}

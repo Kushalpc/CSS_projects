@@ -15,7 +15,10 @@ body {
   width: 360px;
   border: 3px solid black;
   height: 100%;
+  display: flex;
+  flex-direction: column;
   justify-self: center;
+  padding: 10px 20px;
 }
 
 .top {
@@ -25,7 +28,7 @@ body {
 
 .top .top_icons {
   font-size: 25px;
-  margin: 10px;
+  /* margin: 10px; */
   color: black;
 }
 .buttons {
@@ -38,4 +41,56 @@ body {
 .buttons .top_buttons {
   border: 0px;
   margin: 10px 15px;
+}
+
+.buttons .top_buttons:hover {
+  cursor: pointer;
+  background-color: rgb(130, 179, 163);
+}
+
+.image_container {
+  height: 300px;
+  width: auto;
+  align-self: center;
+  margin-top: 30px;
+  border-radius: 24px;
+}
+
+.image_container .image {
+  max-height: 100%;
+  width: auto;
+  border-radius: 24px;
+}
+
+.song_artist {
+  margin: 20px 10px;
+}
+.song_artist .song {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+.song_artist .artist {
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.row_pill {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 15px;
+}
+
+.pill i {
+  font-size: large;
+}
+.pill {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  gap: 5px;
+}
+.row_pill .pill:nth-child(1) {
+  border-right: 1px solid grey;
+  padding-right: 32px;
 }
